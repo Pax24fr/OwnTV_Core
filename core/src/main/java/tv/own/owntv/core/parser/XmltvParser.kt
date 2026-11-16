@@ -6,6 +6,7 @@ import android.util.Xml
 import kotlinx.coroutines.currentCoroutineContext
 import kotlinx.coroutines.ensureActive
 import org.xmlpull.v1.XmlPullParser
+import java.io.BufferedInputStream
 import java.io.IOException
 import java.io.InputStream
 import java.io.PushbackInputStream
@@ -43,7 +44,7 @@ object XmltvParser {
         val seenChannelIds = HashSet<String>()
         val metrics = ParseMetrics()
         val ctx = currentCoroutineContext()
-        val stream = maybeGunzip(input)
+        val stream = BufferedInputStream(maybeGunzip(input))
         val parser = Xml.newPullParser()
         parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false)
         // Relaxed mode: real-world XMLTV feeds are frequently malformed (mismatched/unclosed tags, stray or
