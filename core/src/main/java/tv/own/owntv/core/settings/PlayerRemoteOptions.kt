@@ -31,6 +31,19 @@ enum class PlayerShortOkAction {
 }
 
 /**
+ * What D-pad Up and Down do in the full-screen live player while controls are hidden.
+ */
+enum class PlayerDpadUpDownAction {
+    ZAP,
+    CONTROLS_AND_HISTORY,
+    DISABLED;
+
+    companion object {
+        fun fromName(name: String?): PlayerDpadUpDownAction = entries.firstOrNull { it.name == name } ?: ZAP
+    }
+}
+
+/**
  * The player's remote-button options (Settings > Remote shortcuts > Player buttons). The defaults are
  * exactly the player's behaviour before the options existed, so an unset value changes nothing.
  */
@@ -41,4 +54,6 @@ data class PlayerRemoteOptions(
     val swapChannelKeys: Boolean = false,
     /** Number keys type a channel number in the live player; off leaves them to remote shortcuts. */
     val numberKeysTune: Boolean = true,
+    /** D-pad Up and Down button behavior in live player. */
+    val dpadUpDown: PlayerDpadUpDownAction = PlayerDpadUpDownAction.ZAP,
 )

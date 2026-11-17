@@ -173,6 +173,10 @@
     <string name="settings_player_ok_guide">Guide</string>
     <!-- Translators: Choice for the player's OK button: show the banner with the channel and what is on now and next. -->
     <string name="settings_player_ok_programme_info">Programme info</string>
+    <string name="settings_player_dpad_up_down">D-pad Up / Down buttons</string>
+    <string name="settings_player_dpad_up_down_description">What D-pad Up and Down do in the live player</string>
+    <string name="settings_player_dpad_zap">Zap channels (Default)</string>
+    <string name="settings_player_dpad_controls_history">Down: Controls, Up: History</string>
     <!-- Translators: Choice for the player's OK button: show the player controls (the usual behaviour). -->
     <string name="settings_player_ok_show_controls">Show controls</string>
     <!-- Translators: Remote-control button name. -->

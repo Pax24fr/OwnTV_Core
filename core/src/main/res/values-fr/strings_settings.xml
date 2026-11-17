@@ -87,6 +87,10 @@
     <string name="settings_player_ok_guide">Guide</string>
     <string name="settings_player_ok_programme_info">Infos du programme</string>
     <string name="settings_player_ok_show_controls">Afficher les commandes</string>
+    <string name="settings_player_dpad_up_down">Touches Haut / Bas de la croix</string>
+    <string name="settings_player_dpad_up_down_description">Action des flèches Haut et Bas dans le lecteur en direct</string>
+    <string name="settings_player_dpad_zap">Zapper (Défaut)</string>
+    <string name="settings_player_dpad_controls_history">Bas : Contrôles, Haut : Historique</string>
     <string name="settings_remote_button_channel_up">Chaîne +</string>
     <string name="settings_remote_button_channel_down">Chaîne −</string>
     <string name="settings_remote_button_rewind">Retour rapide</string>
