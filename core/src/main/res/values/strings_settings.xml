@@ -221,6 +221,14 @@
     <string name="settings_remote_action_jump_first">Jump to first item</string>
     <!-- Translators: Shortcut action that jumps to the final item in a focused browsing list. -->
     <string name="settings_remote_action_jump_last">Jump to last item</string>
+    <!-- Translators: Shortcut action that toggles favorite state of the current item or channel. -->
+    <string name="settings_remote_action_toggle_favorite">Toggle favorite</string>
+    <!-- Translators: Toast message when an item is added to favorites. -->
+    <string name="settings_favorite_added">Added to favorites</string>
+    <!-- Translators: Toast message when an item is removed from favorites. -->
+    <string name="settings_favorite_removed">Removed from favorites</string>
+    <!-- Translators: Toast message when favoriting an item. %1$s is the action, %2$s is the item name. -->
+    <string name="settings_favorite_toast_message"><xliff:g id="action">%1$s</xliff:g> : <xliff:g id="name">%2$s</xliff:g></string>
     <!-- Translators: Warning about large skip values on low-end TVs. -->
     <string name="settings_large_skips_warning">Large skips overshoot short lists and may feel jumpy on low-end TVs.</string>
     <!-- Translators: Section header for weather settings. -->
