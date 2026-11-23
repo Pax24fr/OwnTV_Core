@@ -3286,6 +3286,7 @@
 1	preference-key	core/src/main/java/tv/own/owntv/core/settings/SettingsRepository.kt	pip_on_back
 1	preference-key	core/src/main/java/tv/own/owntv/core/settings/SettingsRepository.kt	pip_size
 1	preference-key	core/src/main/java/tv/own/owntv/core/settings/SettingsRepository.kt	pip_snap
+1	preference-key	core/src/main/java/tv/own/owntv/core/settings/SettingsRepository.kt	player_dpad_up_down
 1	preference-key	core/src/main/java/tv/own/owntv/core/settings/SettingsRepository.kt	player_hold_ok
 1	preference-key	core/src/main/java/tv/own/owntv/core/settings/SettingsRepository.kt	player_number_keys_tune
 1	preference-key	core/src/main/java/tv/own/owntv/core/settings/SettingsRepository.kt	player_short_ok

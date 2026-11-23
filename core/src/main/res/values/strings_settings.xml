@@ -233,6 +233,14 @@
     <string name="settings_recording_stopped">Recording stopped</string>
     <!-- Translators: Toast message when VOD download starts. -->
     <string name="settings_download_started">Downloading</string>
+    <!-- Translators: Settings label for D-pad Up and Down action. -->
+    <string name="settings_player_dpad_up_down">D-pad Up / Down</string>
+    <!-- Translators: Description of the D-pad Up and Down setting. -->
+    <string name="settings_player_dpad_up_down_description">What D-pad Up and Down do in the full-screen player</string>
+    <!-- Translators: D-pad Up/Down setting choice: change channel (zap). -->
+    <string name="settings_player_dpad_zap">Change channel</string>
+    <!-- Translators: D-pad Up/Down setting choice: open player controls or history. -->
+    <string name="settings_player_dpad_controls_history">Open controls / History</string>
     <!-- Translators: Warning about large skip values on low-end TVs. -->
     <string name="settings_large_skips_warning">Large skips overshoot short lists and may feel jumpy on low-end TVs.</string>
     <!-- Translators: Section header for weather settings. -->

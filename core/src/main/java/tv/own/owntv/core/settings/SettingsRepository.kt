@@ -614,6 +614,7 @@ class SettingsRepository(private val context: Context, private val localeStore: 
         val PLAYER_SHORT_OK = stringPreferencesKey("player_short_ok")
         val PLAYER_SWAP_CHANNEL_KEYS = booleanPreferencesKey("player_swap_channel_keys")
         val PLAYER_NUMBER_KEYS_TUNE = booleanPreferencesKey("player_number_keys_tune")
+        val PLAYER_DPAD_UP_DOWN = stringPreferencesKey("player_dpad_up_down")
         // Manual panel-width adjustment (v4.3.x): per section (Live/Movies/Series) a master toggle plus
         // one percentage per panel (category rail · item list/grid · preview). 100 = stock width; the
         // three are normalized across the row, so they always fill the screen. See PanelWidths.kt.
