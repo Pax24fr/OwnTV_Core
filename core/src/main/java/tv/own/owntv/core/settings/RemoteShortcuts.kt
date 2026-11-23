@@ -29,6 +29,8 @@ enum class RemoteShortcutAction {
     OPEN_AUDIO_CONTROLS,
     OPEN_ASPECT_CONTROLS,
     TOGGLE_PLAYBACK_INFO,
+    TOGGLE_FAVORITE,
+    INSTANT_RECORD_DOWNLOAD,
 }
 
 enum class RemoteShortcutPress { SHORT, LONG }
