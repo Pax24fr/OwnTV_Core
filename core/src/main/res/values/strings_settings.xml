@@ -229,6 +229,14 @@
     <string name="settings_favorite_removed">Removed from favorites</string>
     <!-- Translators: Toast message when favoriting an item. %1$s is the action, %2$s is the item name. -->
     <string name="settings_favorite_toast_message"><xliff:g id="action">%1$s</xliff:g> : <xliff:g id="name">%2$s</xliff:g></string>
+    <!-- Translators: Shortcut action that starts/stops recording on live channel or downloads VOD. -->
+    <string name="settings_remote_action_instant_record_download">Record or download</string>
+    <!-- Translators: Toast message when live recording starts. -->
+    <string name="settings_recording_started">Recording started</string>
+    <!-- Translators: Toast message when live recording stops. -->
+    <string name="settings_recording_stopped">Recording stopped</string>
+    <!-- Translators: Toast message when VOD download starts. -->
+    <string name="settings_download_started">Downloading</string>
     <!-- Translators: Warning about large skip values on low-end TVs. -->
     <string name="settings_large_skips_warning">Large skips overshoot short lists and may feel jumpy on low-end TVs.</string>
     <!-- Translators: Section header for weather settings. -->
